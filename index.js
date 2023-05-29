@@ -27,7 +27,7 @@ addBtn.addEventListener("click", function () {
 });
 
 deleteBtn.addEventListener("click", function () {
-  localStorage.clear();
   notes = [];
+  localStorage.clear();
   render(notes);
 });

@@ -7,8 +7,8 @@
 body {
   padding: 20px;
   margin: 0;
-  background-color: #a8dadc;
-  min-width: 300px;
+  background-color: #242424;
+  min-width: 330px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -26,14 +26,14 @@ html {
 
 h1 {
   margin: 0;
-  color: #1d3557;
+  color: #ffffff;
 }
 
 .welcome-text {
   font-size: 14px;
   margin-top: 5px;
   margin-bottom: 30px;
-  color: #457b9d;
+  color: rgb(180, 180, 180);
 }
 
 input {
@@ -52,14 +52,14 @@ input {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   cursor: pointer;
-  background-color: #588157;
+  background-color: #57ab56;
   color: #f1faee;
 }
 
 #delete-btn {
   padding: 5px;
   border: none;
-  width: 60px;
+  width: 80px;
   background-color: #e63946;
   color: #f1faee;
   cursor: pointer;
@@ -110,4 +110,10 @@ ol {
 ol > li::marker {
   font-weight: 600;
   color: #e63946;
+}
+
+.delete-btn {
+  color: #e63946;
+  cursor: pointer;
+  font-size: 24px;
 }
